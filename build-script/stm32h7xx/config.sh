@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-chip=stm32h743
+chip=stm32h7xx
 
 product=stm32
 
@@ -19,4 +19,4 @@ lib=
 debug= -O0 -gdwarf-2 -g
 release=-O2
 
-install_path=/mnt/nfs/stm32/stm32h743
+install_path=/mnt/nfs/stm32/stm32h7xx

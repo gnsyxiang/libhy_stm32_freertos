@@ -25,10 +25,7 @@ CHECK_VERSION_INFO
 CHECK_DOXYGEN
 # CHECK_JAVA
 
-SELECT_VENDER
 SELECT_CHIP
-# SELECT_PRODUCT
-SELECT_LANGUAGE
 
 AC_ARG_ENABLE([debug_info],
               [AS_HELP_STRING([--enable-debug_info], [enable support for output debug info])],
@@ -60,22 +57,7 @@ AC_FUNC_MALLOC
 AC_CONFIG_FILES([Makefile
                  $project_name.pc
                  build-script/Makefile
-                 build-script/arterytek/Makefile
-                 build-script/arterytek/at32f4xx/Makefile
-                 build-script/eeasytech/Makefile
-                 build-script/eeasytech/SV823/Makefile
-                 build-script/esp32/Makefile
-                 build-script/esp32/esp32/Makefile
-                 build-script/fullhan/MC6810E/Makefile
-                 build-script/fullhan/Makefile
-                 build-script/nxp/Makefile
-                 build-script/nxp/mx6ull/Makefile
-                 build-script/pc/Makefile
-                 build-script/pc/pc-chip/Makefile
-                 build-script/rock-chips/Makefile
-                 build-script/rock-chips/rk3568/Makefile
-                 build-script/stm32/Makefile
-                 build-script/stm32/stm32h743/Makefile
+                 build-script/stm32h7xx/Makefile
                  doc/Makefile
                  example/Makefile
                  include/Makefile

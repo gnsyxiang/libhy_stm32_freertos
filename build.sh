@@ -196,10 +196,10 @@ get_config()
     configure_param="${configure_param} ${_configure_param}"
 }
 
-select_vender
+# select_vender
 select_chip
 # select_product
-select_language
+# select_language
 select_build_version
 get_com_config
 get_config
